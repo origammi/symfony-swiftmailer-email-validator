@@ -1,6 +1,6 @@
 <?php
 
-namespace Validator\Constraint;
+namespace SymfonySwiftmailerEmailValidator\Validator\Constraint;
 
 use Symfony\Component\Validator\Constraints\Email;
 
