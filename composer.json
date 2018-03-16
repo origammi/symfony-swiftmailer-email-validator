@@ -1,0 +1,16 @@
+{
+  "name": "origammi/symfony-swiftmailer-email-validator",
+  "description": "An extension to Symfony's EmailValidator which enforces the same grammar as Swiftmailer does.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5",
+    "symfony/validator": ">=2.7,<3.0",
+    "swiftmailer/swiftmailer": ">=4.1,<6.0",
+    "egulias/email-validator": "^2.0"
+  },
+  "autoload": {
+    "psr-4": { "SymfonySwiftmailerEmailValidator\\": "" }
+  },
+  "minimum-stability": "stable"
+}
